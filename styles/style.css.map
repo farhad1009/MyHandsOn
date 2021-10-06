@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "../styles/style.css",
+	"file": "style.css",
 	"sources": [
 		"../public/scss/style.scss",
 		"../node_modules/bootstrap/scss/bootstrap.scss",

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import DropDown from '../components/DropDown'
 import styles from '../styles/Home.module.css'
-import VideoPopUp from '../components/VideoPopUp'
+import VideoPopUp from '../components/VideoPopUp/VideoPopUp'
 
 export default function Home() {  
   return (
@@ -21,6 +21,7 @@ export default function Home() {
           </h1>
           <DropDown />
         </section>
+        
         
       </main>
     </div>

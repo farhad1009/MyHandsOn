@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-export default function DropDown() {
+export default function Index() {
     const [isToggled, setToggled] = useState(false);
     const toggleTrueFalse = () => setToggled(!isToggled);
 

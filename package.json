@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sass": "node-sass --watch public/scss/style.scss styles/style.css --source-map style/style.css.map"
+    "sass": "node-sass --watch public/scss/style.scss styles/style.css --source-map styles/style.css.map"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
