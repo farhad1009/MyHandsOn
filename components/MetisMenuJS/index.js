@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useEffect } from "react";
 import 'metismenujs/dist/metismenujs.css';
 
-export default function index() {
+export default function Index() {
     
     useEffect(() => {
         new MetisMenu("#metismenu");
