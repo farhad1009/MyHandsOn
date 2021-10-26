@@ -9,6 +9,7 @@ export default function Index() {
     useEffect(() => {
         new MetisMenu("#metismenu");
     }, []);
+    
     return (
         <>
 
