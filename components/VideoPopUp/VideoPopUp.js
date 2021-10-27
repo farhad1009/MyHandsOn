@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Must be imported magnific-popup in app.js file
+
 export default function VideoPopUp({setShow, src}) {
     return (
         <>

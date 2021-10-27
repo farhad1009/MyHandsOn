@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 SwiperCore.use([Navigation, Pagination]);
 
 export default function Index() {
-    
+
     return (
         <>
             <Swiper
@@ -20,25 +20,22 @@ export default function Index() {
                 loop={true}
                 pagination={{ clickable: true }}
                 className="custom-class"
-                    navigation={{
-                        prevEl: ".custom-prev",
-                        nextEl: ".custom-next",
-                    }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
+                navigation={{
+                    prevEl: ".custom-prev",
+                    nextEl: ".custom-next",
+                }}
             >
-                
-                    <SwiperSlide>
-                        <h1>Slider 1</h1>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <h1>Slider 2</h1>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <h1>Slider 3</h1>
-                    </SwiperSlide>
-               
+
+                <SwiperSlide>
+                    <h1>Slider 1</h1>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <h1>Slider 2</h1>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <h1>Slider 3</h1>
+                </SwiperSlide>
+
             </Swiper>
             <div>
                 <div className="custom-prev">Pre</div>
